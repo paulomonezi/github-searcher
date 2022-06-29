@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Searching users using GitHub API</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
 </head>
+
 <body>
-    
+    <main>
+        <i class="devicon-github-original"></i>
+
+        <section class="container">
+            <header>
+                <h2>Search User</h2>
+                <input type="text" id="input-search" placeholder="Type the GitHub username">
+                <input type="button" value="Search" id="btn-search">
+            </header>
+
+            <div class="profile-data"></div>
+        </section>
+    </main>
+
+    <script type="module" src="./src/index.js"></script>
 </body>
+
 </html>
