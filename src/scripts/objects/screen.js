@@ -14,7 +14,7 @@ const screen = {
 
         if (user.repositories.length > 0) {
             this.userProfile.innerHTML += `<div class="repositories section">
-                                                <h2>Repositories</h2>
+                                                <h2>Last 10 Repositories</h2>
                                                 <ul>${repositoriesItems}</ul>
                                             </div>`
         }
