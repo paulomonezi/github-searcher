@@ -5,6 +5,7 @@ import { screen } from '/src/scripts/objects/screen.js'
 
 document.getElementById('btn-search').addEventListener('click', () => {
     const userName = document.getElementById('input-search').value
+    if (validadeEmptyInput(userName)) return
     getUserData(userName)
 })
 
@@ -14,15 +15,31 @@ document.getElementById('input-search').addEventListener('keyup', (e) => {
     const isEnterKeyPressed = key === 13
 
     if (isEnterKeyPressed) {
-        getUserProfile(userName)
+        if (validadeEmptyInput(userName)) return
+        getUserData(userName)
+        
     }
+    reset()
 })
+
+function validadeEmptyInput(userName) {
+    if (userName.length === 0) {
+        alert("Type the username down below")
+        return true
+    }
+}
 
 async function getUserData(userName) {
 
     const userResponse = await getUser(userName)
+
+    if (userResponse.message === "Not Found") {
+        screen.renderNotFound()
+        return
+    }
+
     const repositoriesResponse = await getRepositories(userName)
-    
+
     user.setInfo(userResponse)
     user.setRepositories(repositoriesResponse)
 

@@ -11,7 +11,6 @@ const screen = {
 
         let repositoriesItems = ''
         user.repositories.forEach(repo => repositoriesItems += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>`)
-        console.log(repositoriesItems)
 
         if (user.repositories.length > 0) {
             this.userProfile.innerHTML += `<div class="repositories section">
@@ -19,6 +18,9 @@ const screen = {
                                                 <ul>${repositoriesItems}</ul>
                                             </div>`
         }
+    },
+    renderNotFound(){
+        this.userProfile.innerHTML = "<h3>User not found</h3>"
     }
 }
 
