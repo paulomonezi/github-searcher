@@ -4,8 +4,10 @@ const screen = {
         this.userProfile.innerHTML = `<div class="info">
                             <img src="${user.avatarUrl}" alt="Profile photo" />
                             <div class="data">
-                              <h1>${user.name ?? "Don't have any registered name 😢"}</h1>
-                              <p>${user.bio ?? "Don't have any bio 😢"}</p>
+                              <h1>${user.name ?? "This user don't have a registered name 😢"}</h1>
+                              <p>${user.bio ?? "This user don't have any bio 😢"}</p>
+                              <span>Followers: ${user.followers ?? "This user don't have any follower"}</span>
+                              <span>Following: ${user.following ?? "This user don't follow anyone"}
                             </div>
                         </div>`
 
@@ -19,7 +21,7 @@ const screen = {
                                             </div>`
         }
     },
-    renderNotFound(){
+    renderNotFound() {
         this.userProfile.innerHTML = "<h3>User not found</h3>"
     }
 }
