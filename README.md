@@ -1,5 +1,7 @@
 # github-searcher
 
+#WIP (still going to add more functions using the github api)
+
 This is a simple project using GitHub API to search and display the user and some of his repositories.
 It was created using HTML, CSS and JS
 
