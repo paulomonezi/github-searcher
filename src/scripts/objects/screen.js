@@ -24,12 +24,13 @@ const screen = {
         if (user.events.length > 0) {
             let eventsItens = ''
             user.events.forEach(event => {
-                if (event.payload) {
-                    if (event.payload.commits) {
-                        const commits = event.payload.commits
-                        const commitsList = commits.map(commit => `<span>${commit.message}</span>`)
-
-                        eventsItens += `<li><strong>${event.repo.name}: </strong> ${commitsList}</li>`
+                if (event.type === 'PushEvent' || 'CreateEvent') {
+                    if (event.payload) {
+                        if (event.payload.commits) {
+                            const commits = [event.payload.commits]
+                            const commitsList = commits.map(commit => `<span>${commit[0].message}</span>`)
+                            eventsItens += `<li><strong>${event.repo.name}: </strong> ${commitsList}</li>`
+                        }
                     }
                 }
             })
