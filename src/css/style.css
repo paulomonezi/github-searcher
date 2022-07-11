@@ -179,8 +179,14 @@ main {
 @media (max-width: 425px) {
   main {
     padding: 15% 0;    
+    
   }
-
+  .events-section li{
+    border: 1px solid grey;
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 5px;
+  }
   .container .profile-data .info img{
     margin-bottom: 20px;
   }
@@ -195,7 +201,7 @@ main {
 
 .events-section ul li{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .events-section ul li strong{
