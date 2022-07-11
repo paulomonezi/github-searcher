@@ -7,12 +7,18 @@ const screen = {
                               <h1>${user.name ?? "This user don't have a registered name 😢"}</h1>
                               <p>${user.bio ?? "This user don't have any bio 😢"}</p>
                               <span>👥 Followers: ${user.followers ?? "This user don't have any follower"}</span>
-                              <span>👥 Following: ${user.following ?? "This user don't follow anyone"}
+                              <span>👥 Following: ${user.following ?? "This user don't follow anyone"}</span>
                             </div>
                         </div>`
 
         let repositoriesItems = ''
-        user.repositories.forEach(repo => repositoriesItems += `<li><a href="${repo.html_url}" target="_blank">${repo.name}</a></li>`)
+        user.repositories.forEach(repo => repositoriesItems += `<li><a href="${repo.html_url}" target="_blank">${repo.name}
+        <div class="about-repo">
+        <span class="forks">🍴${repo.forks_count ?? ''}  </span>
+        <span class="stars">⭐${repo.stargazers_count ?? ''}  </span>
+        <span class="watchers">👀${repo.watchers_count ?? ''}  </span>
+        <span class="language">📚${repo.language ?? ''}  </span>
+        </div></a></li>`)
 
         if (user.repositories.length > 0) {
             this.userProfile.innerHTML += `<div class="repositories section">
