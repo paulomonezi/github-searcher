@@ -192,3 +192,12 @@ main {
     padding: 0;
   }
 }
+
+.events-section ul li{
+  display: flex;
+  align-items: flex-start;
+}
+
+.events-section ul li strong{
+  font-weight: bold;
+}
