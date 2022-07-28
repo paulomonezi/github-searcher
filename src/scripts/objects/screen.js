@@ -26,7 +26,7 @@ const screen = {
                                                 <ul>${repositoriesItems}</ul>
                                             </div>`
         }
-
+        
         if (user.events.length > 0) {
             let eventsItens = ''
             user.events.forEach(event => {
@@ -35,7 +35,7 @@ const screen = {
                         if (event.payload.commits) {
                             const commits = [event.payload.commits]
                             const commitsList = commits.map(commit => `<span>${commit[0].message}</span>`)
-                            eventsItens += `<li><strong>${event.repo.name}: </strong> ${commitsList}</li>`
+                            eventsItens += `<li><strong>${event.repo.name} : - &nbsp</strong>  ${commitsList}</li>`
                         }
                     }
                 }
@@ -48,7 +48,6 @@ const screen = {
         }
 
     },
-
 
     renderNotFound() {
         this.userProfile.innerHTML = "<h3>User not found</h3>"
