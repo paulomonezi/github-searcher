@@ -17,7 +17,7 @@
 <br>
 
 ## 💻 About
-This project is about a code challenge by DevQuest Course, using GitHub Api
+This project is about a **code challenge** by <a href="https://www.linkedin.com/school/devquest-dev-em-dobro/" target="_blank">DevQuest</a> course, using GitHub Api
 
 <br>
 

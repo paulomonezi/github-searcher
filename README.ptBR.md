@@ -17,7 +17,7 @@
 <br>
 
 ## 💻 Sobre
-Esse é um projeto de um desafio de código do curso DevQuest, usando a Api do GitHub
+Esse é um projeto de um **desafio de código** do curso <a href="https://www.linkedin.com/school/devquest-dev-em-dobro/" target="_blank">DevQuest</a>, usando a Api do GitHub
 
 <br>
 
