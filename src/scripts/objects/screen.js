@@ -26,7 +26,7 @@ const screen = {
                                                 <ul>${repositoriesItems}</ul>
                                             </div>`
         }
-        
+
         if (user.events.length > 0) {
             let eventsItens = ''
             user.events.forEach(event => {
