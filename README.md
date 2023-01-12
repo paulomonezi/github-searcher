@@ -12,7 +12,7 @@
 <br>
 
 #### 🌎 _Languages:_ 
-- Também disponível em pt-BR aqui 👉 <a href="https://github.com/paulomonezi/github-searcher/blob/main/README.ptBR.md" target="_blank">Aqui</a>
+- Também disponível em pt-BR 👉 <a href="https://github.com/paulomonezi/github-searcher/blob/main/README.ptBR.md" target="_blank">Aqui</a>
 
 <br>
 
