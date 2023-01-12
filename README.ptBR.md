@@ -10,7 +10,7 @@
 <br>
 
 ### 🌎 _Idiomas:_ 
--  Also avaliable in English 👉 <a href="https://github.com/paulomonezi/react-tech-test/blob/main/README.md" target="_blank">Here</a>
+-  Also avaliable in English 👉 <a href="https://github.com/paulomonezi/github-searcher/blob/main/README.md" target="_blank">Here</a>
 
 <br>
 
