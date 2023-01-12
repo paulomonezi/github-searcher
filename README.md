@@ -4,12 +4,14 @@
     <img src="https://user-images.githubusercontent.com/95001803/176583367-6e34c441-a989-4c15-9003-08d847f6c8cc.png" alt="project-image">
 </p>
 
-### 🔗 _Links_
-👉 <a href="https://paulomonezi.github.io/github-searcher/" target="_blank">https://paulomonezi.github.io/github-searcher/</a>
+### 🔗 Links
+
+#### 💡 _Project:_
+- 👉 <a href="https://paulomonezi.github.io/github-searcher/" target="_blank">https://paulomonezi.github.io/github-searcher/</a>
 
 <br>
 
-### 🌎 _Languages:_ 
+#### 🌎 _Languages:_ 
 - Também disponível em pt-BR aqui 👉 <a href="https://github.com/paulomonezi/github-searcher/blob/main/README.ptBR.md" target="_blank">Aqui</a>
 
 <br>
