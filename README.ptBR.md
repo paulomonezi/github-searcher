@@ -39,4 +39,7 @@ Validações:
 - Renderizar uma página de 'usuário não encontrado' caso o usuário não exista
 
 ## 🧰 Tecnologias usadas
-Javascript, HTML and CSS
+Javascript, HTML e CSS
+
+#### 🔌 _Github API:_
+- https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28

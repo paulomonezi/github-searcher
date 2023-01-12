@@ -40,3 +40,6 @@ Validations:
 
 ## 🧰 Tech Stack
 Javascript, HTML and CSS
+
+#### 🔌 _Github API:_
+- https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28
