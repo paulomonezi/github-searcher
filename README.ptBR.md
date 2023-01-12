@@ -38,5 +38,5 @@ Validações:
 - Não enviar a request com uma string vazia
 - Renderizar uma página de 'usuário não encontrado' caso o usuário não exista
 
-## 🧰 Tecnologias Usadas
+## 🧰 Tecnologias usadas
 Javascript, HTML and CSS
